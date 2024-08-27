@@ -32,8 +32,8 @@ const HomePage = () => (
         </div>
         <div className="section">
           <h2>Twenty-fifth session of the Executive Committee and the Pan African Council of UCLG-AFRICA</h2>
-          <ul>The Minister of Local Development hosted the twenty-fifth session of the meetings of the Executive Council and the African Expanded Council of the United Cities and Local Governments Organization - Africa in June 2021.</ul>
-          <ul>Bilateral and qualitative meetings were held with the participating delegations to discuss some related issues.</ul>
+          <p>The Minister of Local Development hosted the twenty-fifth session of the meetings of the Executive Council and the African Expanded Council of the United Cities and Local Governments Organization - Africa in June 2021.</p>
+          <p>Bilateral and qualitative meetings were held with the participating delegations to discuss some related issues.</p>
           <div style={{display: "flex", justifyContent: "center"}}>
             <img src={AMimg1} alt="UCLG-Africa Meeting" style={{width: "100%"}} />
           </div>
