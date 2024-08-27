@@ -10,16 +10,17 @@ const App = () => (
     <nav>
       <img src={logo} alt="NARO Logo" className='logoSmall' />
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="NARO/">Home</Link></li>
+        <li><Link to="NARO/about">About</Link></li>
+        <li><Link to="NARO/contact">Contact</Link></li>
       </ul>
     </nav>
 
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/contact" element={<ContactUsPage />} />
+      <Route path='*' element={<HomePage />} />
+      <Route path="NARO/" element={<HomePage />} />
+      <Route path="NARO/about" element={<AboutPage />} />
+      <Route path="NARO/contact" element={<ContactUsPage />} />
     </Routes>
   </div>
 );

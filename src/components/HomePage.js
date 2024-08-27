@@ -34,9 +34,11 @@ const HomePage = () => (
           <h2>Twenty-fifth session of the Executive Committee and the Pan African Council of UCLG-AFRICA</h2>
           <ul>The Minister of Local Development hosted the twenty-fifth session of the meetings of the Executive Council and the African Expanded Council of the United Cities and Local Governments Organization - Africa in June 2021.</ul>
           <ul>Bilateral and qualitative meetings were held with the participating delegations to discuss some related issues.</ul>
-          <div style={{display: "center"}}>
-            <img src={AMimg1} alt="UCLG-Africa Meeting" />
-            <img src={AMimg2} alt="UCLG-Africa Meeting" />
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <img src={AMimg1} alt="UCLG-Africa Meeting" style={{width: "100%"}} />
+          </div>
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <img src={AMimg2} alt="UCLG-Africa Meeting" style={{width: "100%"}} />
           </div>
           <p>Cairo, June 17-18, 2021
           The city of Cairo, Egypt, hosted the 25th Ordinary Session of the Executive Committee of United Cities and Local Governments of Africa (UCLG Africa) on June 17-18, 2021. The opening ceremony on June 17 was presided over by Mr. Mahmoud Shaarawy, Egypt's Minister of Local Development, Vice President of UCLG Africa for the North Africa region, and President of UCLG World, along with other distinguished officials including the Governor of Cairo, Mr. Khaled Abdel Aal, and the Secretary-General of UCLG Africa, Mr. Jean-Pierre Elong Mbassi. The event was attended by members of the Executive Committee, Egyptian authorities, and development partners.</p>
@@ -59,16 +61,22 @@ const HomePage = () => (
             Organization of African United Cities and Local Governments
           </h2>
           <div style={{display: "flex", justifyContent: "center"}}>
-            <img src={hq1} alt="NARO Headquarters" style={{width: "80%"}} />
-            <img src={hq2} alt="NARO Headquarters" style={{width: "80%"}} />
+            <img src={hq1} alt="NARO Headquarters" style={{width: "100%"}} />
           </div>
           <div style={{display: "flex", justifyContent: "center"}}>
-            <img src={hq3} alt="NARO Headquarters" style={{width: "80%"}} />
-            <img src={hq4} alt="NARO Headquarters" style={{width: "80%"}} />
+            <img src={hq2} alt="NARO Headquarters" style={{width: "100%"}} />
           </div>
           <div style={{display: "flex", justifyContent: "center"}}>
-            <img src={hq5} alt="NARO Headquarters" style={{width: "80%"}} />
-            <img src={hq6} alt="NARO Headquarters" style={{width: "80%"}} />
+            <img src={hq3} alt="NARO Headquarters" style={{width: "100%"}} />
+          </div>
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <img src={hq4} alt="NARO Headquarters" style={{width: "100%"}} />
+          </div>
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <img src={hq5} alt="NARO Headquarters" style={{width: "100%"}} />
+          </div>
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <img src={hq6} alt="NARO Headquarters" style={{width: "100%"}} />
           </div>
         </div>  
     </div>
