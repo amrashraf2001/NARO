@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NARO/static/css/main.b66e6c1b.css",
+    "main.js": "/NARO/static/js/main.cd005a5a.js",
+    "static/media/hq3.jpg": "/NARO/static/media/hq3.8e5e9f3f46d55bed9d99.jpg",
+    "static/media/agr1.jpg": "/NARO/static/media/agr1.7afd75315286d1de10d6.jpg",
+    "static/media/hq6.jpg": "/NARO/static/media/hq6.24368ee56d267888321d.jpg",
+    "static/media/hq1.jpg": "/NARO/static/media/hq1.21febebaa7454f837d12.jpg",
+    "static/media/hq5.jpg": "/NARO/static/media/hq5.9b9456e64f5b18c0b4ba.jpg",
+    "static/media/hq4.jpg": "/NARO/static/media/hq4.461f655c9af0a400071b.jpg",
+    "static/media/hq2.jpg": "/NARO/static/media/hq2.5499625a1598a8232b74.jpg",
+    "static/media/UCLG-Africa Meeting2.jpg": "/NARO/static/media/UCLG-Africa Meeting2.f20e4d01f45e8225a9de.jpg",
+    "static/media/UCLG-Africa Meeting1.jpg": "/NARO/static/media/UCLG-Africa Meeting1.f42d290baabcc1013baa.jpg",
+    "static/media/logo.png": "/NARO/static/media/logo.b83bfe510f08d72ed8d5.png",
+    "index.html": "/NARO/index.html",
+    "main.b66e6c1b.css.map": "/NARO/static/css/main.b66e6c1b.css.map",
+    "main.cd005a5a.js.map": "/NARO/static/js/main.cd005a5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b66e6c1b.css",
+    "static/js/main.cd005a5a.js"
+  ]
+}
