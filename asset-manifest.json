@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NARO/static/css/main.a36a8f1f.css",
-    "main.js": "/NARO/static/js/main.52c49218.js",
+    "main.css": "/NARO/static/css/main.582d048e.css",
+    "main.js": "/NARO/static/js/main.e0d436ef.js",
     "static/media/hq3.jpg": "/NARO/static/media/hq3.8e5e9f3f46d55bed9d99.jpg",
     "static/media/agr1.jpg": "/NARO/static/media/agr1.7afd75315286d1de10d6.jpg",
     "static/media/hq6.jpg": "/NARO/static/media/hq6.24368ee56d267888321d.jpg",
@@ -13,11 +13,11 @@
     "static/media/UCLG-Africa Meeting1.jpg": "/NARO/static/media/UCLG-Africa Meeting1.f42d290baabcc1013baa.jpg",
     "static/media/logo.png": "/NARO/static/media/logo.b83bfe510f08d72ed8d5.png",
     "index.html": "/NARO/index.html",
-    "main.a36a8f1f.css.map": "/NARO/static/css/main.a36a8f1f.css.map",
-    "main.52c49218.js.map": "/NARO/static/js/main.52c49218.js.map"
+    "main.582d048e.css.map": "/NARO/static/css/main.582d048e.css.map",
+    "main.e0d436ef.js.map": "/NARO/static/js/main.e0d436ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.a36a8f1f.css",
-    "static/js/main.52c49218.js"
+    "static/css/main.582d048e.css",
+    "static/js/main.e0d436ef.js"
   ]
 }
