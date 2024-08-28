@@ -299,10 +299,10 @@ nav ul li a:hover {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between; /* Ensure space between arrows and content */
   position: relative;
   width: 100%;
-  padding: 0 20px; /* Add padding to ensure arrows are not too close to the screen edges */
+  padding: 0 20px; /* Padding to ensure arrows are not too close to the screen edges */
   box-sizing: border-box; /* Ensure padding does not affect width */
 }
 
@@ -316,29 +316,17 @@ nav ul li a:hover {
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s, transform 0.3s;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .arrow:hover {
   background-color: #0056b3;
-  transform: scale(1.1) translateY(-50%);
-}
-
-.arrow-left {
-  left: 10px; /* Adjust for smaller screens */
-}
-
-.arrow-right {
-  right: 10px; /* Adjust for smaller screens */
+  transform: scale(1.1);
 }
 
 .content {
-  text-align: center;
   flex: 1;
-  margin: 0 50px; /* Margin ensures content is not too close to the arrows */
-  box-sizing: border-box; /* Ensure margin does not affect width */
+  text-align: center;
+  margin: 0 10px; /* Margin to prevent content from touching arrows */
 }
 
 /* Responsive adjustments */
@@ -348,16 +336,8 @@ nav ul li a:hover {
     font-size: 16px; /* Smaller font size for smaller screens */
   }
 
-  .arrow-left {
-    left: 5px; /* Smaller spacing for smaller screens */
-  }
-
-  .arrow-right {
-    right: 5px; /* Smaller spacing for smaller screens */
-  }
-
   .content {
-    margin: 0 30px; /* Reduce margin for smaller screens */
+    margin: 0 5px; /* Reduce margin for smaller screens */
   }
 }
 
