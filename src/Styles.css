@@ -302,15 +302,17 @@ nav ul li a:hover {
   justify-content: center;
   position: relative;
   width: 100%;
+  padding: 0 20px; /* Add padding to ensure arrows are not too close to the screen edges */
+  box-sizing: border-box; /* Ensure padding does not affect width */
 }
 
 .arrow {
   background-color: #007bff;
   color: #fff;
   border: none;
-  padding: 15px;
+  padding: 10px; /* Adjust padding for smaller screens */
   cursor: pointer;
-  font-size: 24px;
+  font-size: 18px; /* Adjust font size for smaller screens */
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s, transform 0.3s;
@@ -325,17 +327,40 @@ nav ul li a:hover {
 }
 
 .arrow-left {
-  left: 0;
+  left: 10px; /* Adjust for smaller screens */
 }
 
 .arrow-right {
-  right: 0;
+  right: 10px; /* Adjust for smaller screens */
 }
 
 .content {
   text-align: center;
-  margin: 0 50px; /* Adjust margins as needed */
+  flex: 1;
+  margin: 0 50px; /* Margin ensures content is not too close to the arrows */
+  box-sizing: border-box; /* Ensure margin does not affect width */
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .arrow {
+    padding: 8px; /* Smaller padding for smaller screens */
+    font-size: 16px; /* Smaller font size for smaller screens */
+  }
+
+  .arrow-left {
+    left: 5px; /* Smaller spacing for smaller screens */
+  }
+
+  .arrow-right {
+    right: 5px; /* Smaller spacing for smaller screens */
+  }
+
+  .content {
+    margin: 0 30px; /* Reduce margin for smaller screens */
+  }
+}
+
 
 
 .slider {
