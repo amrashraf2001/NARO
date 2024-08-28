@@ -19,6 +19,7 @@ const HomePage = () => (
         <div className="section">
             <h1>Welcome to NARO</h1>
         </div>
+        <div className="box">
         <div className="section">
             <h2>North Africa Regional Office (NARO)</h2>
             <p>NARO, part of UCLG Africa, has been a cornerstone in advancing.......</p>
@@ -73,6 +74,7 @@ const HomePage = () => (
             <img src={hq6} alt="NARO Headquarters" style={{width: "100%"}} />
           </div>
         </div>  
+      </div>
     </div>
   </div>
 );

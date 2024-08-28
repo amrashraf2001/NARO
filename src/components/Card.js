@@ -4,7 +4,7 @@ import '../Styles.css';
 
 const Card = ({ title, img, paragraphs }) => (
     <div className="section">
-        <h2 style={{color:'black', fontSize:'bold'}}>{title}</h2>
+        <h2 style={{color:'black', fontSize:'bold',display:'center',justifyContent:'center'}}>{title}</h2>
         <div style={{ display: "flex", justifyContent: "center" }}>
             <img src={img} alt={title} style={{ width: "100%" }} />
         </div>
