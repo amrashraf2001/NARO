@@ -35,7 +35,7 @@
 .about-page,
 .contact-us-page {
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0");
+  background-image: url("./components/img/Apage.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -169,7 +169,7 @@ nav ul li a:hover {
 
 .home-content {
   text-align: center;
-  max-width: 800px;
+  max-width: 1500px; /* Increase the max-width value to make it wider */
   width: 100%;
   background: rgba(255, 255, 255, 0.8);
   padding: 20px;
@@ -481,3 +481,28 @@ nav ul li a:hover {
   background-size: cover;
 }
 
+
+/* ParagraphNavigator Styles */
+.paragraph-navigator {
+  background-color: black; /* Set background color to black */
+  color: white; /* Set text color to white */
+  padding: 15px; /* Increase padding for larger size */
+  border-radius: 5px; /* Optional: Rounded corners */
+  font-size: 1.5rem; /* Increase font size */
+  display: flex; /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Add shadow */
+}
+
+/* Ensure links inside ParagraphNavigator are styled */
+.paragraph-navigator a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin: 0 10px; /* Spacing between links */
+  font-weight: bold; /* Optional: Bold text */
+}
+
+.paragraph-navigator a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
