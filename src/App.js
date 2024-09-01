@@ -3,6 +3,8 @@ import { Route, Routes, Link } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import ContactUsPage from './components/ContactUsPage';
+import AfroPage from './components/AfroPage';
+import AfroDetails from './components/AfroDetails';
 import logo from './logo.png';
 import Card from './components/Card';
 import AMH from './components/img/AMH.jpg';
@@ -65,6 +67,7 @@ const App = () => (
         <li><Link to="NARO/">Home</Link></li>
         <li><Link to="NARO/about">About</Link></li>
         <li><Link to="NARO/contact">Contact</Link></li>
+        <li><Link to="NARO/AfroCity">Africities</Link></li>
       </ul>
     </nav>
 
@@ -77,6 +80,8 @@ const App = () => (
       <Route path="/NARO/details" element={<Card title={'NARO'} img={logoo} paragraphs={paragraphs1} />} />
       <Route path="/NARO/25session" element={<Card title={'25th Session of UCLG Africa'} img={AMimg2} paragraphs={paragraphs3} />} />
       <Route path="/NARO.HQ-Agreement" element={<Card title={'UCLG Africa HQ Agreement'} img={AGR1} paragraphs={paragraphs4} />} />
+      <Route path="NARO/AfroCity" element={<AfroPage />} />
+      <Route path="NARO/AfroCity/details" element={<AfroDetails />} />
     </Routes>
   </div>
 );
