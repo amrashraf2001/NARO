@@ -3,7 +3,7 @@ import FlipCountdown from './FlipCountdown';
 import { Link } from 'react-router-dom';
 import './AfroPage.css';
 
-const WUFPage = () => {
+const ACPage = () => {
 
   return (
     <div className="wuf-container">
@@ -24,4 +24,4 @@ const WUFPage = () => {
   );
 };
 
-export default WUFPage;
+export default ACPage;

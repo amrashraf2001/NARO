@@ -5,6 +5,7 @@ import AboutPage from './components/AboutPage';
 import ContactUsPage from './components/ContactUsPage';
 import AfroPage from './components/AfroPage';
 import AfroDetails from './components/AfroDetails';
+import VisionPage from './components/VisonPage'
 import logo from './logo.png';
 import Card from './components/Card';
 import AMH from './components/img/AMH.jpg';
@@ -82,6 +83,7 @@ const App = () => (
       <Route path="/NARO.HQ-Agreement" element={<Card title={'UCLG Africa HQ Agreement'} img={AGR1} paragraphs={paragraphs4} />} />
       <Route path="NARO/AfroCity" element={<AfroPage />} />
       <Route path="NARO/AfroCity/details" element={<AfroDetails />} />
+      <Route path="/NARO/about/vision" element={<VisionPage/>} />
     </Routes>
   </div>
 );
