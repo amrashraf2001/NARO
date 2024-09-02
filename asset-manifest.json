@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NARO/static/css/main.3e7d8eb3.css",
-    "main.js": "/NARO/static/js/main.9fa38a9c.js",
+    "main.css": "/NARO/static/css/main.3d3c2f85.css",
+    "main.js": "/NARO/static/js/main.9faa6ac0.js",
     "static/media/AC1.jpg": "/NARO/static/media/AC1.63b913781defbfd9cec1.jpg",
     "static/media/hq3.jpg": "/NARO/static/media/hq3.8e5e9f3f46d55bed9d99.jpg",
     "static/media/agr1.jpg": "/NARO/static/media/agr1.7afd75315286d1de10d6.jpg",
@@ -17,11 +17,11 @@
     "static/media/logo.png": "/NARO/static/media/logo.b83bfe510f08d72ed8d5.png",
     "static/media/AMH.jpg": "/NARO/static/media/AMH.cde4956038dfe5228431.jpg",
     "index.html": "/NARO/index.html",
-    "main.3e7d8eb3.css.map": "/NARO/static/css/main.3e7d8eb3.css.map",
-    "main.9fa38a9c.js.map": "/NARO/static/js/main.9fa38a9c.js.map"
+    "main.3d3c2f85.css.map": "/NARO/static/css/main.3d3c2f85.css.map",
+    "main.9faa6ac0.js.map": "/NARO/static/js/main.9faa6ac0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e7d8eb3.css",
-    "static/js/main.9fa38a9c.js"
+    "static/css/main.3d3c2f85.css",
+    "static/js/main.9faa6ac0.js"
   ]
 }
