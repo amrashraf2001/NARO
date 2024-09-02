@@ -15,6 +15,9 @@ const FormComponent = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const { name, email, message } = formData;
+    const mailtoLink = `mailto:your-email@example.com?subject=Form Submission&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+    window.location.href = mailtoLink;
     localStorage.setItem('formData', JSON.stringify(formData));
     alert('Form data saved to local storage');
   };
