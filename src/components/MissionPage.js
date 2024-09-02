@@ -19,6 +19,7 @@ return (
                 <p><strong>Establish Local Government as a Distinct Sphere:</strong> Advocate for the recognition of North African local governments as a distinct and integral sphere of governance, working in support of national and other governmental levels.</p>
                 <p><strong>Ensure Democracy and Human Rights:</strong> Champion democracy, human rights, and the rule of law in North Africa, supporting local governments in their efforts to uphold these principles and values.</p>
                 <p><strong>Promote Resource Sharing:</strong> Facilitate the sharing of resources, knowledge, and best practices among North African local governments, fostering collaboration and mutual support.</p>
+                <p><strong>Empower Local Governments:</strong> Empower North African local governments to take an active role in the political and economic development of the region, ensuring their voices are heard and their impact is felt.</p>
                 <p><strong>Pursue Sustainable Development:</strong> Promote sustainable development in North Africa, advocating for policies and initiatives that address the region's social, economic, and environmental challenges.</p>
             </div>
             </div>
