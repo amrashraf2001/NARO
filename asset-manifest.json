@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NARO/static/css/main.3d3c2f85.css",
+    "main.css": "/NARO/static/css/main.e5f75d3d.css",
     "main.js": "/NARO/static/js/main.9faa6ac0.js",
     "static/media/AC1.jpg": "/NARO/static/media/AC1.63b913781defbfd9cec1.jpg",
     "static/media/hq3.jpg": "/NARO/static/media/hq3.8e5e9f3f46d55bed9d99.jpg",
@@ -17,11 +17,11 @@
     "static/media/logo.png": "/NARO/static/media/logo.b83bfe510f08d72ed8d5.png",
     "static/media/AMH.jpg": "/NARO/static/media/AMH.cde4956038dfe5228431.jpg",
     "index.html": "/NARO/index.html",
-    "main.3d3c2f85.css.map": "/NARO/static/css/main.3d3c2f85.css.map",
+    "main.e5f75d3d.css.map": "/NARO/static/css/main.e5f75d3d.css.map",
     "main.9faa6ac0.js.map": "/NARO/static/js/main.9faa6ac0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d3c2f85.css",
+    "static/css/main.e5f75d3d.css",
     "static/js/main.9faa6ac0.js"
   ]
 }
