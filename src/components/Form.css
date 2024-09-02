@@ -1,0 +1,111 @@
+/* Container with enhanced styling and graphics */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #f3f4f6, #e5e9f0);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Form title styling */
+  .form-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Label styling */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Input and textarea styling */
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
+  
+  /* Textarea specific styling */
+  .form-group textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  /* Submit button styling */
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Decorative graphics */
+  .form-container::before,
+  .form-container::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(0, 123, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .form-container::before {
+    width: 200px;
+    height: 200px;
+    top: -10%;
+    left: -10%;
+    background-size: cover;
+  }
+  
+  .form-container::after {
+    width: 150px;
+    height: 150px;
+    bottom: -10%;
+    right: -10%;
+    background-size: cover;
+  }
+  
