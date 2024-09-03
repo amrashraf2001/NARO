@@ -1,9 +1,17 @@
 import React from 'react';
 import FlipCountdown from './FlipCountdown';
 import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import './AfroPage.css';
 
 const WUFPage = () => {
+
+    const history = useHistory();
+
+    const handleButtonClick = () => {
+    history.push('/NARO/AfroCity/details');
+   
+  };
 
   return (
     <div className="wuf-container">
@@ -19,7 +27,7 @@ const WUFPage = () => {
       <div className="wuf-illustration">
         <div className="illustration"></div>
       </div>
-      <button className="explore-button"><Link to="/NARO/AfroCity/details">Explore More</Link></button>
+      <button className="explore-button" onClick={handleButtonClick}><Link to="/NARO/AfroCity/details">Explore More</Link></button>
     </div>
   );
 };
