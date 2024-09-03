@@ -5,19 +5,14 @@ import AboutPage from './components/AboutPage';
 import ContactUsPage from './components/ContactUsPage';
 import AfroPage from './components/AfroPage';
 import AfroDetails from './components/AfroDetails';
+import VisionPage from './components/VisonPage';
+import MissionPage from './components/MissionPage';
 import logo from './logo.png';
 import Card from './components/Card';
 import AMH from './components/img/AMH.jpg';
 import logoo from './components/img/logoo.jpg';
-import AMimg1 from './components/img/UCLG-Africa Meeting1.jpg';
 import AMimg2 from './components/img/UCLG-Africa Meeting2.jpg';
 import AGR1 from './components/img/agr1.jpg';
-import hq1 from './components/img/hq1.jpg';
-import hq2 from './components/img/hq2.jpg';
-import hq3 from './components/img/hq3.jpg';
-import hq4 from './components/img/hq4.jpg';
-import hq5 from './components/img/hq5.jpg';
-import hq6 from './components/img/hq6.jpg';
 
 const paragraphs1 = [
   "NARO, part of UCLG Africa, has been a cornerstone in advancing local governance and regional development in North Africa since 2018. Through strategic initiatives, NARO has empowered local authorities, promoted sustainable urban development, and fostered regional cooperation among municipalities.",
@@ -82,6 +77,8 @@ const App = () => (
       <Route path="/NARO.HQ-Agreement" element={<Card title={'UCLG Africa HQ Agreement'} img={AGR1} paragraphs={paragraphs4} />} />
       <Route path="NARO/AfroCity" element={<AfroPage />} />
       <Route path="NARO/AfroCity/details" element={<AfroDetails />} />
+      <Route path="/NARO/about/vision" element={<VisionPage/>} />
+      <Route path="/NARO/about/mission" element={<MissionPage/>} />
     </Routes>
   </div>
 );
